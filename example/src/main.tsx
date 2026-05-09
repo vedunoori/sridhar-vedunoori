@@ -3,6 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import "@awsui/global-styles/index.css";
+import "./theme-overrides.css";
 
 ReactDOM.render(
   <React.StrictMode>

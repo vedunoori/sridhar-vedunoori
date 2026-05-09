@@ -1,0 +1,17 @@
+/*
+ * Override AWSUI blue (Cloudscape) theme back to classic AWS Console orange.
+ * html:root has specificity (0,1,1) vs :root (0,1,0) — wins regardless of load order.
+ */
+html:root {
+  /* Primary button */
+  --color-background-button-primary-default-LB0KN_: #eb5f07;
+  --color-background-button-primary-hover-2Fde77: #cf560a;
+  --color-background-button-primary-active-16ybNV: #b34a08;
+
+  /* Active nav link (SideNavigation) and accent text */
+  --color-text-accent-wO7w0U: #eb5f07;
+
+  /* Table row vertical padding to match design row height */
+  --space-scaled-xs-m2APzp: 14px;
+  --space-scaled-xxs-1P8vQQ: 7px;
+}
